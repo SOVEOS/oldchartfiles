@@ -35,8 +35,8 @@ request(options2, function (error, response, body)
              
              
              var request2 = require('request');
-//            const theurl2='http://63.250.37.151:9999/?action=addtick&symbol=EOS_USD&p='+price_eos_usd;
-            const theurl2='http://63.250.37.151:9999/?action=addtick&symbol='+thepair+'&p='+price_pow_pbtc;
+//            const theurl2='http://45.76.95.186:9999/?action=addtick&symbol=EOS_USD&p='+price_eos_usd;
+            const theurl2='http://45.76.95.186:9999/?action=addtick&symbol='+thepair+'&p='+price_pow_pbtc;
             console.log("url2: " + theurl2);
 
 request2(theurl2, function (error, response, body) 
